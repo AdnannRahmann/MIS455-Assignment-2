@@ -8,9 +8,13 @@ document.getElementById('numberForm').addEventListener('submit', function(event)
     
     if (number1 > number2) {
         greaterNumber = number1;
-    } else if (number2 > number1) {
+    } 
+    
+    else if (number2 > number1) {
         greaterNumber = number2;
-    } else {
+    } 
+    
+    else {
         console.log('Both numbers are equal.');
         return;
     }
