@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuition Fee Discount Calculator</title>
+    <link rel="stylesheet" href="problem5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tuition Fee Discount Calculator</h1>
+        <form id="discountForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="tuitionFees">Total Tuition Fees:</label>
+            <input type="number" id="tuitionFees" name="tuitionFees" required>
+            
+            <label for="birthYear">Birth Year: (Example:2005)</label>
+            <input type="number" id="birthYear" name="birthYear" required>
+            
+            <button type="submit">Calculate Discount</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="problem5.js"></script>
+</body>
+</html>
