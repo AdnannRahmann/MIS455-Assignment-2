@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px;
+    font-size: 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #383d43;
+}
